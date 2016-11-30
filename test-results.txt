@@ -1,0 +1,184 @@
+(Tested on ubuntu 14.04)  
+
+# Linux  2.6.11 auditor (nmap  6.45 from windows)  / Acorp Wireless ADSL Modem (nmap 7.01 from kali) 
+
+	echo "32" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "0" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "61440" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1500" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+	
+# Red Hat Linux 2.6.9  (6.45 from win) /  Acorp Wireless ADSL Modem (nmap 7.01 from kali) 
+
+	echo "99" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "512" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "57" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+
+# amazon kindle paper white (nmap  6.45 from win)  / Acorp Wireless ADSL Modem (nmap 7.01 from kali) 
+
+
+	echo "225" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "1" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "1" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "16384" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "0" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# Lexmark Printer (6.45 from win)  / Linux 3.0 (nmap 7.01 from kali)  /
+
+	echo "123" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "1720" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1500" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# Pirelli Wireless Modem (nmap 6.45 from win) /  Acorp Wireless ADSL Modem (nmap 7.01 from kali)
+
+	echo "25" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "65535" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	echo "Your OS Fingerprint has been set to Pirelli Wireless Modem"
+	
+# Spharion Turbolink Modem (nmap 6.45 win) / Acorp Wireless ADSL Modem (nmap 7.01 from kali)
+
+	echo "57" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "1" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "2560" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# Axis 207 Camera   (nmap 6.45 from win) / Check Point  Firewall (nmap 7.01 from kali)
+
+	echo "70" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "17250" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# IBM Webspere Datapower xs40 Proxy Server (nmap  6.45 from win) /  Acorp Wireless ADSL Modem (nmap 7.01 from kali)
+
+	echo "200" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "2048" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1500" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+=============================================================================================================================
+
+Tested on kali latest
+
+# Linux  2.6.11 auditor (nmap 7.01)  / Acorp Wireless ADSL Modem (6.45 from win )
+
+	echo "32" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "0" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "61440" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1500" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+	
+# Red Hat Linux 2.6.9 (nmap 7.01) / Acorp Wireless ADSL Modem (6.45 from win)
+
+	echo "99" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "512" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "57" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+
+# Avocent ACS 5000 console server linux (nmap  7.01)  / Acorp Wireless ADSL Modem (nmap 6.45 )
+
+	echo "225" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "1" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "1" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "16384" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "0" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# Lexmark Printer  (nmap 7.1)  /   Linux 3.0  (nmap 6.45 )
+
+	echo "123" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "1720" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1500" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# Pirelli Wireless Modem  (nmap 7.1) / Acorp Wireless ADSL Modem (6.45 )
+
+	echo "25" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "65535" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	echo "Your OS Fingerprint has been set to Pirelli Wireless Modem"
+	
+# Spharion Turbolink Modem  (nmap 7.1) / Acorp Wireless ADSL Modem (nmap 6.45)
+
+	echo "57" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "1" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "2560" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# Axis 207 Camera   (nmap 7.01 and 7.11) / Check Point UTM-1 Edge X firewall  (nmap 6.45)
+
+	echo "70" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "17250" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	echo "1280" > /proc/sys/net/ipv4/tcp_mtu_probing
+	
+	
+# IBM Webspere Datapower xs40 Proxy Server ( nmap 7.01, ) /  Acorp Wireless ADSL Modem (nmap 6.45 )
+
+	echo "200" > /proc/sys/net/ipv4/ip_default_ttl 
+	echo "0" > /proc/sys/net/ipv4/tcp_timestamps 
+	echo "1" >/proc/sys/net/ipv4/ip_no_pmtu_disc 
+	echo "0" > /proc/sys/net/ipv4/tcp_stdurg 
+	echo "2048" > /proc/sys/net/ipv4/tcp_window_scaling 
+	echo "0" > /proc/sys/net/ipv4/tcp_sack 
+	echo "1500" > /proc/sys/net/ipv4/tcp_mtu_probing
